@@ -1,9 +1,11 @@
-class Solution(object):
+class Solution:
     def finalValueAfterOperations(self, operations):
-        x=0
+        x = 0
+
         for op in operations:
             if '+' in op:
-                x=x+1
+                x += 1
             else:
-                x=x-1
-        return x                    
+                x -= 1
+
+        return x
