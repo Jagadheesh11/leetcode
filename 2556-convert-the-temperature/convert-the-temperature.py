@@ -1,5 +1,9 @@
-class Solution:
+class Solution(object):
     def convertTemperature(self, celsius):
-        kelvin = celsius + 273.15
-        fahrenheit = celsius * 1.80 + 32.00
-        return [kelvin, fahrenheit]
+       a=[]
+       k=celsius+273.1500
+       a.append(k)
+       f=celsius*1.800+32
+       a.append(f)
+       return a
+        
